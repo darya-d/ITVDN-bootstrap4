@@ -1,0 +1,25 @@
+h1 {
+    color: #ee82a6;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+.row {
+    height: 150px;
+    background-color: rgb(189, 196, 196);
+}
+
+.row div {
+    height: 50px;
+    text-align: center;
+    background-color: #ee82a6;
+    border: 3px solid #eef1f1;
+}
+
+.row div:nth-child(odd) {
+    background-color: #f3efba;
+}

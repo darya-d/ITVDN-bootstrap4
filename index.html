@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!-- CSS links  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -12,7 +12,84 @@
     <title>ITVDN Bootstrap 4 lesson</title>
 </head>
 <body>
-    
+    <h1>ITVDN Bootstrap 4 lesson</h1>
+
+    <h2>12 simple columns</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-1">col-1</div>
+            <div class="col-1">col-2</div>
+            <div class="col-1">col-3</div>
+            <div class="col-1">col-4</div>
+            <div class="col-1">col-5</div>
+            <div class="col-1">col-6</div>
+            <div class="col-1">col-7</div>
+            <div class="col-1">col-8</div>
+            <div class="col-1">col-9</div>
+            <div class="col-1">col-10</div>
+            <div class="col-1">col-11</div>
+            <div class="col-1">col-12</div>
+        </div>
+    </div>
+
+    <h2>1 big column</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">col-1</div>
+        </div>
+    </div>
+
+    <h2>4 same columns</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col">col-1</div>
+            <div class="col">col-2</div>
+            <div class="col">col-3</div>
+            <div class="col">col-4</div>
+        </div>
+    </div>
+
+    <h2>Different columns</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">col-1</div>
+            <div class="col-5">col-2</div>
+            <div class="col-2">col-3</div>
+            <div class="col-1">col-4</div>
+            <div class="col-1">col-5</div>
+        </div>
+    </div>
+
+    <h2>Different columns with fullscreen width</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">col-1</div>
+            <div class="col-5">col-2</div>
+            <div class="col-2">col-3</div>
+            <div class="col-1">col-4</div>
+            <div class="col-1">col-5</div>
+        </div>
+    </div>
+
+    <h2>4 columns with different vertical align</h2>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col align-self-start">col-1</div>
+            <div class="col-4">col-2</div>
+            <div class="col">col-3</div>
+            <div class="col align-self-end">col-4</div>
+        </div>
+    </div>
+
+    <h2>4 columns with different horizontal align and different order</h2>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-1 order-4">col-1</div>
+            <div class="col-4">col-2</div>
+            <div class="col-2">col-3</div>
+            <div class="col-3 order-first">col-4</div>
+        </div>
+    </div>
 
     <!-- JS scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
